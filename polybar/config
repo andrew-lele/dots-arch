@@ -1,5 +1,12 @@
-[bar/nookac]
+[colors]
+	transparent = #00000000
 
+[settings]
+wm-restack = bspwm
+override-redirect = true
+pseudo-transparency = true
+
+[bar/nookac]
 ;------------;
 ; DIMENSIONS ;
 ;------------;
@@ -18,9 +25,9 @@ border-left-size = 10
 ; LOCATION ;
 ;----------;
 
-bottom = false
-wm-restack = bspwm
-override-redirect = false
+;bottom = false
+;wm-restack = bspwm
+;override-redirect = false
 
 ;-------;
 ; FONTS ;
@@ -37,8 +44,8 @@ font-1 = Hack Nerd Font:pixelsize=10;2
 ;--------;
 ; COLORS ;
 ;--------;
-background = 0
-foreground =  #aaa6a9b7
+background = #aa
+foreground =  #FFa6a9b7
 border-color = 0
 ;third = #0000000;#FF0000;#0000000
 
@@ -92,7 +99,7 @@ label-occupied-padding = 1.5
 
 label-urgent = 
 label-urgent-padding = 1.5
-
+label-urgent-foreground = #aaFF0000
 
 label-empty = •
 label-empty-padding = 1.5
